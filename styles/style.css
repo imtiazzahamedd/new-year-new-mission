@@ -218,4 +218,152 @@ body {
     color: rgb(255, 255, 255);
 
     background: rgb(255, 0, 0);
+    margin-bottom: 114px;
+    /* margin-top: 50px; */
+}
+
+#new-offer {
+    margin-top: 2900px;
+    margin-left: 300px;
+
+}
+
+.new-offer-text {
+    display: flex;
+    justify-content: space-between;
+    width: 82.5%;
+    max-width: 1320px;
+
+}
+
+.new-offer-right-column {
+    width: 393px;
+    height: 255px;
+    margin-right: -138px;
+
+}
+
+.new-offer-left-column {
+    width: 276px;
+    height: 170px;
+}
+
+.new-offer-left-column h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.new-offer-left-column h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: -4px;
+    margin-bottom: 22px;
+}
+
+.new-offer-left-column p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 393px;
+height: 128px;
+
+}
+
+.new-offer-right-column h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.new-offer-right-column p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 276px;
+height: 96px;
+margin-top: -4px;
+
+}
+
+.new-offer-img {
+    padding-top: 36px;
+    padding-left: 30px;
+    position: absolute;
+    margin-right: 443px;
+    margin-left: 450px;
+    margin-top: -300px;
+    width: 100px;
+    height: 100px;
+    border: 13px solid red;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;  
+}
+.ny{
+    width: 140px;
+    height: 140px;
+}
+.holiday> .holiday-texts{
+    margin-top: 320px;
+    margin-left: 766px;
+    align-items: center;
+}
+.holiday> .holiday-texts h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 16px;
+}
+.holiday> .holiday-texts h3{
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: -750px;
+margin-top: -2px;
+margin-bottom: 28px;
+}
+.holiday> .holiday-texts p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: -2px;
+width: 900px;
+height: 96px;
+margin-left: -290px;
 }
