@@ -1,4 +1,3 @@
-
 body {
     font-family: "Merriweather", serif;
 }
@@ -110,13 +109,15 @@ body {
     margin-left: 103px;
     margin-top: 8px;
 }
-.party-main{
+
+.party-main {
     display: flex;
     justify-content: space-around;
 }
-#party .container{
-    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
-    
+
+#party .container {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+
 
     background-repeat: no-repeat;
     position: absolute;
@@ -126,55 +127,95 @@ body {
     margin-top: 1500px;
     margin-left: 280px;
 }
-.party-text h3{
+
+.party-text h3 {
     color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 53px;
-font-weight: 700;
-line-height: 73px;
-letter-spacing: 11%;
-text-align: left;
-/* Welcome to midnight party */
-position: absolute;
-width: 530px;
-height: 145px;
-padding-left: 126px;
-padding-top: 126px;
-padding-bottom: 24px;
+    font-family: Merriweather;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 11%;
+    text-align: left;
+    /* Welcome to midnight party */
+    position: absolute;
+    width: 530px;
+    height: 145px;
+    padding-left: 126px;
+    padding-top: 126px;
+    padding-bottom: 24px;
 
 }
-.party-text p{
+
+.party-text p {
     color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 100;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-width: 575px;
-height: 49.5px;
-margin-top: 326px;
-margin-left: 126px;
-margin-top: 340px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 575px;
+    height: 49.5px;
+    margin-top: 326px;
+    margin-left: 126px;
+    margin-top: 340px;
 }
-.party-text h5{
+
+.party-text h5 {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-margin-top: 55px;
-margin-left: 22px;
-margin-bottom: 142px;
-margin-right: 300px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-left: 22px;
+    margin-bottom: 142px;
+    margin-right: 300px;
 }
-.party-img{
+
+.party-img {
     width: 50px;
-height: 100px;
-margin-top: 68px;
-margin-right: 390px;
-margin-bottom: 67px;
+    height: 100px;
+    margin-top: 68px;
+    margin-right: 390px;
+    margin-bottom: 67px;
+}
+
+#event {
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 82.5%;
+    max-width: 1320px;
+    position: absolute;
+    margin-top: 2200px;
+    left: 140px;
+    right: -140px;
+    margin-left: 150px;
+}
+
+.event-texts {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: none;
+    color: rgb(255, 255, 255);
+
+    background: rgb(255, 0, 0);
 }
