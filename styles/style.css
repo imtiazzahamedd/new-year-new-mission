@@ -281,7 +281,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
     width: 393px;
-height: 128px;
+    height: 128px;
 
 }
 
@@ -305,8 +305,8 @@ height: 128px;
     letter-spacing: 0%;
     text-align: left;
     width: 276px;
-height: 96px;
-margin-top: -4px;
+    height: 96px;
+    margin-top: -4px;
 
 }
 
@@ -322,18 +322,22 @@ margin-top: -4px;
     border: 13px solid red;
     border-radius: 50%;
     width: 400px;
-    height: 400px;  
+    height: 400px;
 }
-.ny{
+
+.ny {
     width: 140px;
     height: 140px;
 }
-.holiday> .holiday-texts{
+
+
+.holiday>.holiday-texts {
     margin-top: 320px;
     margin-left: 766px;
     align-items: center;
 }
-.holiday> .holiday-texts h5{
+
+.holiday>.holiday-texts h5 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 24px;
@@ -344,26 +348,265 @@ margin-top: -4px;
     margin-left: 55px;
     margin-bottom: 16px;
 }
-.holiday> .holiday-texts h3{
-font-size: 72px;
-font-weight: 900;
-line-height: 91px;
-letter-spacing: 0%;
-text-align: center;
-margin-left: -750px;
-margin-top: -2px;
-margin-bottom: 28px;
+
+.holiday>.holiday-texts h3 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: -750px;
+    margin-top: -2px;
+    margin-bottom: 28px;
 }
-.holiday> .holiday-texts p{
+
+.holiday>.holiday-texts p {
     color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: -2px;
+    width: 900px;
+    height: 96px;
+    margin-left: -290px;
+    margin-bottom: 60px;
+}
+
+.rectangle {
+    margin-top: 64px;
+}
+
+
+
+
+.r1 {
+    margin-left: 1176px;
+    width: 353px;
+    height: 352px;
+
+
+}
+
+.grp {
+    margin-left: 1000px;
+    margin-top: -265px;
+
+
+}
+
+.redrec {
+
+    margin-left: 285px;
+}
+
+.giftbox {
+    position: absolute;
+
+
+    margin-top: -680px;
+    margin-left: 300px;
+}
+
+.bestgiftpf {
+
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.best-gift-texts h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.best-gift-texts h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.best-gift-texts p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 400px;
+}
+
+.bestgiftpf .best-gift-img .imgs {
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.subscribe {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.first-sec .sub-img {
+    margin: 80px 585px 40px 585px;
+}
+
+.sub-heading {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+
+.sub-paragraph {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 212px;
+    margin-right: 212px;
+}
+
+.second-sec {
+    margin-left: 336px;
+    display: flex;
+    margin: 20px auto;
+
+}
+
+.second-sec .inp {
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    max-width: 600px;
+    height: 45px;
+    margin-left: 300px;
+    color: rgba(7, 2, 17, 0.3);
 font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
+font-size: 18px;
+font-weight: 200;
+line-height: 22px;
 letter-spacing: 0%;
 text-align: center;
-margin-top: -2px;
-width: 900px;
-height: 96px;
-margin-left: -290px;
+    
+
+
+
+
+}
+#sub-btn{
+    border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+}
+.ending{
+    background: rgb(7, 2, 17);
+}
+.first-texts{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first-texts h4{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+width: 375px;
+height: 80px;
+margin: 120px 0px 409px 140px;
+}
+.number{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.first-texts .website a{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+.right-side{
+    display: block;
+    margin: 120px 291px 406px 0px;
+}
+.call{
+    padding: 7px;
+    margin-bottom: -11px;
+}
+.icons{
+    margin-top: -300px;
+    margin-left: 800px;
+}
+.icn{
+    padding: 8px;
+}
+.caption{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.caption .res{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 140px;
+}
+.caption #us{
+    
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: right;
+margin-right: 140px;
+}
+.ending{
+    margin-top: 120px;
 }
